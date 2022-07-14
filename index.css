@@ -250,4 +250,11 @@ footer{
 img{
   display: grid;
   grid-template-rows: auto;
+  justify-content: space-between;
+}
+header{
+  max-width: 100%;
+  position: sticky; position:-webkit-sticky;
+  top: 0;z-index: 2;
+  background-color: #FFFFFF;
 }
